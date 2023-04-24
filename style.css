@@ -1,0 +1,54 @@
+:root{
+    --primery-color:#6c63ff;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+body{
+    margin-top: 100px;
+}
+
+h1,h2,h3{
+    text-align: center;
+    margin: 0;
+}
+h2{
+    font-size: 38px;
+}
+h1{
+    font-size: 76px;
+}
+h3{
+    font-size: 20px;
+    opacity: .7;
+}
+img{
+    width:100%;
+    height:100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.columns{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    background-color: var(--primery-color);
+    margin: 20px;
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    box-shadow: var(--box-shadow);
+}
+.btn-contact{
+    background-color: var(--primery-color);
+    color: white;
+}
+.btn-about{
+    color: var(--primery-color);
+    background-color: white;
+}
