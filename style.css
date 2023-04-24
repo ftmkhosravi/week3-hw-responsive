@@ -25,6 +25,7 @@ img{
     height:100%;
     object-position: center;
     object-fit: cover;
+    margin: 20px 0;
 }
 
 .buttons{
@@ -51,4 +52,23 @@ img{
 .btn-about{
     color: var(--primery-color);
     background-color: white;
+}
+@media (max-width:476px){
+    h1{
+        font-size: 28px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 17px;
+    }
+    .buttons{
+        margin-top: 20px;
+    }
+    .btn{
+        margin: 10px;
+        padding: 15px 10px;
+    }
+
 }
